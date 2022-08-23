@@ -76,6 +76,10 @@ button {
 }
 
 .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   width: 90%;
   list-style: none;
 }
@@ -93,6 +97,7 @@ button {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 5px;
+  margin-right: 5px;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -122,6 +127,11 @@ li {
 }
 
 .list-item.checked {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+.list-item.completed {
   text-decoration: line-through;
   opacity: 50%;
 }
