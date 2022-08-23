@@ -46,6 +46,7 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 12px;
 }
 .input-box {
   width: 70%;
@@ -58,6 +59,7 @@ input {
   padding-top: 0;
   padding-bottom: 0;
   padding-right: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .add-button {
@@ -69,7 +71,10 @@ button {
   width: 100%;
   cursor: pointer;
   transition: ease-in-out 0.2s;
+  font-family: "Montserrat", sans-serif;
 }
 
-button:hover {
+.list {
+  width: 90%;
+  list-style: none;
 }
