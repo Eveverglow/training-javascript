@@ -78,3 +78,35 @@ button {
   width: 90%;
   list-style: none;
 }
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  background-color: #88ba78;
+  opacity: 80%;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.bin {
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  background-image: url(./assets/bin.png);
+  background-size: cover;
+  background-color: #88ba78;
+  opacity: 80%;
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+
+.bin:hover {
+  width: 18px;
+  height: 18px;
+}
